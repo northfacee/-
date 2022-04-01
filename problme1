@@ -1,0 +1,4 @@
+import re
+
+text = "python is# an% easy;language- to, learn."
+print(re.split('; |, |# |% |- ', text))
